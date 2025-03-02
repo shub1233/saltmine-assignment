@@ -149,7 +149,7 @@ function App() {
 
       floor.rotation.x = -Math.PI / 2;
       floor.scale.set(1, -1, 1);
-      floor.position.y += Math.random() * 0.1;
+      floor.position.y += Math.random() * 0.5;
 
       const uvAttribute = geometry.attributes.uv;
 
